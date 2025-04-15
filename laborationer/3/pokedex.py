@@ -77,6 +77,7 @@ def main():
     pokemon_id = pokemons.get(pokemon_name)
     if pokemon_id == None:
         print("No information about '{}' was found.".format(pokemon_name))
+        return None
 
     pokemon_data = fetch_specific_pokemon(pokemon_id)
     ability_urls = get_pokemon_abilities(pokemon_data)
@@ -101,9 +102,5 @@ def main():
 
         if i < len(abilities) - 1:
             print()
-
-
-
-    
 
 main()

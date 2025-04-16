@@ -33,7 +33,7 @@ def draw_diagram1(values, filenames):
         plt.plot(x_values, y_values, label=filename)
 
     plt.legend(loc='upper left', bbox_to_anchor=(1, 0, 1, 1))
-    plt.savefig("_".join(filenames) + "_1.png", bbox_inches="tight")
+    plt.savefig("./outputs/{}_1.png".format("_".join(filenames)), bbox_inches="tight")
 
 def draw_diagram2(values, filenames):
     plt.figure()
@@ -44,18 +44,25 @@ def draw_diagram2(values, filenames):
         plt.plot(x_values, y_values, label=filename)
     
     plt.legend(loc='upper left', bbox_to_anchor=(1, 0, 1, 1))
-    plt.savefig("_".join(filenames) + "_2.png", bbox_inches="tight")
+    plt.savefig("./outputs/{}_2.png".format("_".join(filenames)), bbox_inches="tight")
 
 
 if __name__ == "__main__":
-    filenames = sys.argv[1:];
+    args = sys.argv[1:];
+    filenames = []
 
     values_1, values_2 = [], []
 
-    for filename in filenames:
-        data = load_csv("csv/{}.csv".format(filename))
-        values_1.append(prepare_data1(data))
-        values_2.append(prepare_data2(data))
+    for filename in args:
+        try:
+            path = "csv/{}.csv".format(filename)
+            data = load_csv(path)
+            values_1.append(prepare_data1(data))
+            values_2.append(prepare_data2(data))
+            filenames.append(filename)
+        except FileExistsError:
+            print("Could not find file '{}'".format(path))
+            
         
     draw_diagram1(values_1, filenames)
     draw_diagram2(values_2, filenames)

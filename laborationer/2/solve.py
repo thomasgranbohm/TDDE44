@@ -2,17 +2,6 @@ import csv
 import med
 
 
-def main():
-    word = ""
-    while word != "q":
-        word = input("Type word: ").lower()
-        suggestion = autocomplete(word)
-        suggestion_freq = autocomplete_using_freq(word)
-        autocorrect_sugg = autocorrect(word)
-        print("First three suggestions: ", suggestion)
-        print("Suggestions based on frequency: ", suggestion_freq)
-        print("Autocorrect suggestion: ", autocorrect_sugg)
-
 def get_word_list():
     words = open("./alphabetical.csv", "r")
     reader = csv.reader(words)
@@ -59,5 +48,14 @@ def autocorrect(word):
     
     return best_match[0]
 
-main()
+if __name__ == "__main__":
+    word = ""
+    while word != "q":
+        word = input("Type word: ").lower()
+        suggestion = autocomplete(word)
+        suggestion_freq = autocomplete_using_freq(word)
+        autocorrect_sugg = autocorrect(word)
+        print("First three suggestions: ", suggestion)
+        print("Suggestions based on frequency: ", suggestion_freq)
+        print("Autocorrect suggestion: ", autocorrect_sugg)
 

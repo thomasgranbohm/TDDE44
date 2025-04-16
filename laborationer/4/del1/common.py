@@ -1,5 +1,4 @@
 def load_csv(filename):
-    # Error handling mabby?
     with open(filename, "r") as file:
         lines = []
         for line in file.readlines():

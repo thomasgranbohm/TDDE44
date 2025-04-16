@@ -2,9 +2,7 @@
 import requests
 import sys
 
-BASE_BASE_URL = "https://www.ida.liu.se/~TDDE44/pokeapi"
-
-BASE_URL = "https://www.ida.liu.se/~TDDE44/pokeapi/api/v2/"
+BASE_URL = "https://www.ida.liu.se/~TDDE44/pokeapi"
 
 def fetch_json_as_dict(url):
     resp = requests.get(url)
@@ -19,7 +17,7 @@ def fetch_json_as_dict(url):
     return resp.json()
 
 def fetch_all_blank(endpoint):
-    body = fetch_json_as_dict("{}/{}".format(BASE_BASE_URL, endpoint))
+    body = fetch_json_as_dict("{}/{}".format(BASE_URL, endpoint))
 
     if body == None:
         raise Exception("Could not get endpoint '{}'".format(endpoint))
@@ -37,7 +35,7 @@ def fetch_all_abilities():
     return fetch_all_blank("/api/v2/ability")
 
 def fetch_specific_blank(endpoint: str):
-    body = fetch_json_as_dict("{}/{}".format(BASE_BASE_URL, endpoint))
+    body = fetch_json_as_dict("{}/{}".format(BASE_URL, endpoint))
 
     if body == None:
         raise Exception("Could not get endpoint '{}'".format(endpoint))

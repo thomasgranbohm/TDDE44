@@ -27,6 +27,12 @@
 import gamedata
 import pictures
 
+"""
+get_next_state hanterar spelets nuvarande stadie
+om stadiet har en beskrivning så skrivs den ut,
+varje stadie har minst en valmöjlighet, men om den endast har en så väljs den automatiskt
+annars frågas användaren efter ett svar och det alternativet returneras som det nästa stadiet
+"""
 def get_next_state(state):
     desc = gamedata.DESCRIPTIONS.get(state)
     if desc:
@@ -56,133 +62,5 @@ def main():
         current_state = get_next_state(current_state)
 
     pictures.print_pic(current_state)
-
-# if __name__ == "__main__":
-#     name = input("What's your name?\n>> ")
-#     print("Welcome {} to the adventure of your life. Try to survive and find the \
-#     treasure!".format(name.upper()))
-
-#     current_state = "Start"
-#     succ_states = gamedata.ADVENTURE_TREE[current_state]
-
-#     while (current_state != "End"):
-#         print(gamedata.DESCRIPTIONS[current_state])
-#         for i, state in enumerate(succ_states):
-#             print("{} {}".format(i + 1, state))
-
-#         inp = None
-#         while not inp or inp >= len(succ_states):
-#             inp = int(input(">> "))
-        
-#         current_state = succ_states[inp]
-    
-
-#     if inp == "1":
-#         text_box = "{}\n{}  {}\n{}  {}".format(gamedata.DESCRIPTIONS["Blue"],
-#                                             "1", gamedata.OPTIONS["Chest"],
-#                                             "2", gamedata.OPTIONS["Guard"])
-#         print(text_box)
-#         inp = input(">> ")
-
-#         if inp == "1":
-#             text_box = "{}\n{}  {}\n{}  {}".format(gamedata.DESCRIPTIONS["Chest"],
-#                                                 "1", gamedata.OPTIONS["Take"],
-#                                                 "2", gamedata.OPTIONS["Leave"])
-#             pictures.print_treasure()
-#             print(text_box)
-#             inp = input(">> ")
-
-#             if inp == "1":
-#                 text_box = "{}\n{}  {}\n{}  {}".format(gamedata.DESCRIPTIONS["Take"],
-#                                                     "1", gamedata.OPTIONS["Sneak"],
-#                                                     "2", gamedata.OPTIONS["Talk"])
-#                 print(text_box)
-#                 inp = input(">> ")
-
-#                 if inp == "1":
-#                     pictures.print_guard()
-#                     text_box = "{}".format(gamedata.DESCRIPTIONS["Direction"])
-#                     print(text_box)
-#                     inp = input(">> ")
-
-#                     if inp == "left":
-#                         text_box = "{}".format(gamedata.DESCRIPTIONS["Sneak"])
-#                         print(text_box)
-#                     else:
-#                         pictures.print_game_over()
-
-                        
-#                 elif inp == "2":
-#                     text_box = "{}".format(gamedata.DESCRIPTIONS["Talk"])
-#                     pictures.print_guard()
-#                     print(text_box)
-#                     pictures.print_game_over()
-
-#             elif inp == "2":
-#                 text_box = "{}\n{}  {}\n{}  {}".format(gamedata.DESCRIPTIONS["Leave"],
-#                                                     "1", gamedata.OPTIONS["Sneak"],
-#                                                     "2", gamedata.OPTIONS["Talk"])
-#                 print(text_box)
-#                 inp = input(">> ")
-
-#                 if inp == "1":
-#                     pictures.print_guard()
-#                     text_box = "{}".format(gamedata.DESCRIPTIONS["Direction"])
-#                     print(text_box)
-#                     inp = input(">> ")
-
-#                     if inp == "left":
-#                         text_box = "{}".format(gamedata.DESCRIPTIONS["Sneak"])
-#                         print(text_box)
-#                     else:
-#                         pictures.print_game_over()
-
-#                 elif inp == "2":
-#                     text_box = "{}".format(gamedata.DESCRIPTIONS["Talk"])
-#                     pictures.print_guard()
-#                     print(text_box)
-#                     pictures.print_game_over()
-
-#         elif inp == "2":
-#             text_box = "{}\n{}  {}\n{}  {}".format(gamedata.DESCRIPTIONS["Guard"],
-#                                                 "1", gamedata.OPTIONS["Sneak"],
-#                                                 "2", gamedata.OPTIONS["Talk"])
-#             print(text_box)
-#             inp = input(">> ")
-
-#             if inp == "1":
-#                 pictures.print_guard()
-#                 text_box = "{}".format(gamedata.DESCRIPTIONS["Direction"])
-#                 print(text_box)
-#                 inp = input(">> ")
-
-#                 if inp == "left":
-#                     text_box = "{}".format(gamedata.DESCRIPTIONS["Sneak"])
-#                     print(text_box)
-#                 else:
-#                     pictures.print_game_over()
-
-#             elif inp == "2":
-#                 text_box = "{}".format(gamedata.DESCRIPTIONS["Talk"])
-#                 pictures.print_guard()
-#                 print(text_box)
-#                 pictures.print_game_over()
-
-#     elif inp == "2":
-#         text_box = "{}\n{}  {}\n{}  {}".format(gamedata.DESCRIPTIONS["Red"],
-#                                             "1", gamedata.OPTIONS["Flee"],
-#                                             "2", gamedata.OPTIONS["Attack"])
-#         pictures.print_dragon()
-#         print(text_box)
-#         inp = input(">> ")
-
-#         if inp == "1":
-#             text_box = "{}".format(gamedata.DESCRIPTIONS["Flee"])
-#             print(text_box)
-
-#         elif inp == "2":
-#             text_box = "{}".format(gamedata.DESCRIPTIONS["Attack"])
-#             print(text_box)
-#             pictures.print_game_over()
 
 main()

@@ -1,0 +1,254 @@
+----- From SC83069 to EC0 @2025-06-03 08:14:14 regarding #regarding \#1
+Submitted file: '3/uppg1.py'
+
+----- From EC331 to SC83069 @2025-06-03 08:20:06 regarding #regarding \#1
+Subject: Komplettering
+upppgift 1.1 klarar inte testerna
+
+----- From EC331 to SC83069 @2025-06-03 08:20:06 regarding #regarding \#1
+Assessment of assignment 1 resulted in Komplettering.
+
+----- From SC83069 to EC0 @2025-06-03 08:27:50 regarding #regarding \#2
+Submitted file: '4/uppg2.py'
+
+----- From SC83069 to EC0 @2025-06-03 08:31:39 regarding #regarding \#1
+Submitted file: '5/uppg1.py'
+
+----- From EC248 to SC83069 @2025-06-03 08:34:44 regarding #regarding \#2
+Subject: Godkänd
+
+
+----- From EC248 to SC83069 @2025-06-03 08:34:44 regarding #regarding \#2
+Assessment of assignment 2 resulted in Godkänd.
+
+----- From SC83069 to EC0 @2025-06-03 08:36:13 regarding #regarding \#3
+Submitted file: '6/uppg3.py'
+
+----- From SC83069 to EC0 @2025-06-03 08:40:37 regarding #regarding \#4
+Submitted file: '7/uppg4.py'
+
+----- From EC331 to SC83069 @2025-06-03 08:44:05 regarding #regarding \#1
+Subject: Komplettering
+uppgift 1.2 är felaktigt löst
+
+----- From EC331 to SC83069 @2025-06-03 08:44:05 regarding #regarding \#1
+Assessment of assignment 1 resulted in Komplettering.
+
+----- From EC327 to SC83069 @2025-06-03 08:47:47 regarding #regarding \#3
+Subject: Godkänd
+Snyggt jobbat!
+
+----- From EC327 to SC83069 @2025-06-03 08:47:47 regarding #regarding \#3
+Assessment of assignment 3 resulted in Godkänd.
+
+----- From EC313 to SC0 @2025-06-03 09:03:23 regarding #regarding \#1
+Subject: count_pairs
+Ett extra exempelfall att testa för count_pairs:
+
+>>> count_pairs([1, 1.0])
+0
+
+----- From SC83069 to EC0 @2025-06-03 09:05:54 regarding #regarding \#5
+Submitted file: '8/uppg5.py'
+
+----- From EC354 to SC83069 @2025-06-03 09:09:43 regarding #regarding \#4
+Subject: Godkänd
+Bra jobbat!
+
+----- From EC354 to SC83069 @2025-06-03 09:09:43 regarding #regarding \#4
+Assessment of assignment 4 resulted in Godkänd.
+
+----- From SC83069 to EC0 @2025-06-03 09:17:53 regarding #regarding \#6
+Submitted file: '9/uppg6.py'
+
+----- From SC83069 to EC0 @2025-06-03 09:19:36 regarding #regarding \#1
+Submitted file: '10/uppg1.py'
+
+----- From EC344 to SC83069 @2025-06-03 09:30:06 regarding #regarding \#5
+Subject: Godkänd
+
+
+----- From EC344 to SC83069 @2025-06-03 09:30:06 regarding #regarding \#5
+Assessment of assignment 5 resulted in Godkänd.
+
+----- From EC331 to SC83069 @2025-06-03 09:33:29 regarding #regarding \#1
+Subject: Godkänd
+
+
+----- From EC331 to SC83069 @2025-06-03 09:33:29 regarding #regarding \#1
+Assessment of assignment 1 resulted in Godkänd.
+
+----- From EC354 to SC83069 @2025-06-03 09:41:32 regarding #regarding \#6
+Subject: Bedöms i efterhand
+
+
+----- From EC354 to SC83069 @2025-06-03 09:41:32 regarding #regarding \#6
+Assessment of assignment 6 resulted in Bedöms i efterhand.
+
+----- From SC83069 to EC0 @2025-06-03 09:42:28 regarding #regarding \#7
+Submitted file: '12/uppg7.py'
+
+----- From EC313 to SC0 @2025-06-03 09:52:56 regarding #regarding \#1
+Subject: Re:count_pairs
+
+Hej, detta var ett meddelande som gick ut till alla. Är du redan godkänd på uppgift 1 så behöver du inte göra något.
+
+ > Ett extra exempelfall att testa för count_pairs:
+ >> 
+ >> >>> count_pairs([1, 1.0])
+ >> 0
+
+----- From EC326 to SC83069 @2025-06-03 09:53:59 regarding #regarding \#7
+Subject: Bedöms i efterhand
+
+
+----- From EC326 to SC83069 @2025-06-03 09:53:59 regarding #regarding \#7
+Assessment of assignment 7 resulted in Bedöms i efterhand.
+
+----- From EC313 to SC0 @2025-06-03 09:59:24 regarding #
+Subject: Skicka inte upprepade frågor
+Hej alla!
+
+Skicka INTE upprepade frågor. Vid det här laget ligger vi långt efter med frågorna eftersom ni skickar samma fråga flera gånger. Det gör bara att det tar ännu längre tid eftersom vi måste svara på varje fråga.
+
+----- From SC83069 to EC0 @2025-06-03 10:05:12 regarding #regarding \#8
+Submitted file: '13/uppg8.py'
+
+----- From EC327 to SC83069 @2025-06-03 10:05:43 regarding #regarding \#8
+Subject: Bedöms i efterhand
+
+
+----- From EC327 to SC83069 @2025-06-03 10:05:43 regarding #regarding \#8
+Assessment of assignment 8 resulted in Bedöms i efterhand.
+
+----- From SC83069 to EC0 @2025-06-03 10:13:58 regarding #
+Subject: Hittat eget fel
+Jag har hittat ett fel i min lösning till uppg8 men jag har redan skickat in. Om jag skickar in en uppdaterad version, är det den ni kommer att kolla på?
+
+----- From EC354 to SC0 @2025-06-03 10:17:21 regarding #regarding \#1
+Subject: Re:
+Ja.
+
+
+ > menar du att count_pairs([1, 1.0])
+ >> 
+ >> ska returnera 0?
+
+----- From EC248 to SC83069 @2025-06-03 10:17:46 regarding #
+Subject: Re:Hittat eget fel
+Vi kommer utgå från den senaste inskickade uppgiften.
+
+
+ > Jag har hittat ett fel i min lösning till uppg8 men jag har redan skickat in. Om jag skickar in en uppdaterad version, är det den ni kommer att kolla på?
+
+----- From SC83069 to EC0 @2025-06-03 10:22:09 regarding #regarding \#8
+Submitted file: '15/uppg8.py'
+
+----- From EC354 to SC83069 @2025-06-03 10:22:15 regarding #regarding \#8
+Subject: Bedöms i efterhand
+
+
+----- From EC354 to SC83069 @2025-06-03 10:22:15 regarding #regarding \#8
+Assessment of assignment 8 resulted in Bedöms i efterhand.
+
+----- From SC83069 to EC0 @2025-06-03 10:27:49 regarding #regarding \#7
+Submitted file: '16/uppg7.py'
+
+----- From EC354 to SC83069 @2025-06-03 10:29:30 regarding #regarding \#7
+Subject: Bedöms i efterhand
+
+
+----- From EC354 to SC83069 @2025-06-03 10:29:30 regarding #regarding \#7
+Assessment of assignment 7 resulted in Bedöms i efterhand.
+
+----- From SC83069 to EC0 @2025-06-03 10:30:01 regarding #regarding \#7
+Submitted file: '17/uppg7.py'
+
+----- From EC326 to SC83069 @2025-06-03 10:33:41 regarding #regarding \#7
+Subject: Bedöms i efterhand
+
+
+----- From EC326 to SC83069 @2025-06-03 10:33:41 regarding #regarding \#7
+Assessment of assignment 7 resulted in Bedöms i efterhand.
+
+----- From EC313 to SC0 @2025-06-03 10:49:21 regarding #regarding \#5
+Subject: Fler exempel att testa
+Hej alla!
+
+Här är två extra testfall för uppgift 5. Är du redan godkänd på uppgift 5 kan du ignorera detta.
+
+>>> least_common_popular_name(2019, 'topp100_tilltalsnamn_k_2010-2019.csv')
+'Mikaela'
+>>> least_common_popular_name(2019, 'topp100_tilltalsnamn_m_2010-2019.csv')
+'Arvid'
+
+----- From EC313 to SC0 @2025-06-03 10:49:32 regarding #regarding \#5
+Subject: Re:Re:Komplettering
+
+Se utskick nyss.
+
+ > 
+ >> 
+ >> 
+ >>  > Flera fel, testa koden med flera årtal.
+ >> 
+ >> det står ju i uppgiften att bara ett årtal ska skickas med. Jag förstår inte riktigt kompletteringen.
+ >> 
+
+----- From EC248 to SC83069 @2025-06-09 16:46:36 regarding #regarding \#7
+Subject: 05.0p
+-0.5p: Otydliga variabelnamn                                                            
+
+Cool, koncis lösning.
+
+Totalt: 5p (avrundat upp)
+
+----- From EC248 to SC83069 @2025-06-09 16:46:36 regarding #regarding \#7
+Assessment of assignment 7 resulted in 05.0p.
+
+----- From EC326 to SC83069 @2025-06-09 22:58:41 regarding #regarding \#6
+Subject: 05.0p
+-0.5 Obeskrivande variabelnamn ('s')
+
+Rundas uppåt (5p)
+
+----- From EC326 to SC83069 @2025-06-09 22:58:41 regarding #regarding \#6
+Assessment of assignment 6 resulted in 05.0p.
+
+----- From EC326 to SC83069 @2025-06-10 10:48:05 regarding #regarding \#6
+Subject: 04.0p
+-0.5p Otydliga variabelnamn (s)
+-0.5p Död kod (isdigit körs ej)
+
+
+----- From EC326 to SC83069 @2025-06-10 10:48:05 regarding #regarding \#6
+Assessment of assignment 6 resulted in 04.0p.
+
+----- From EC313 to SC83069 @2025-06-17 19:58:49 regarding #regarding \#8
+Subject: 00.0p
+0p. Lösning saknas.
+
+
+----- From EC313 to SC83069 @2025-06-17 19:58:49 regarding #regarding \#8
+Assessment of assignment 8 resulted in 00.0p.
+
+----- From EC313 to SC83069 @2025-06-17 19:59:01 regarding #
+Grade 4 was set by examiner.
+
+Summary of grades:
+Assignment 1: Godkänd
+Assignment 2: Godkänd
+Assignment 3: Godkänd
+Assignment 4: Godkänd
+Assignment 5: Godkänd
+Assignment 6:  4.0p
+Total:     4.0p
+
+Assignment 7:  5.0p
+Total:     9.0p
+
+Assignment 8:  0.0p
+Total:     9.0p
+
+Summary of exam grade:
+The grade 4 was set at 2025-06-17 19:59:01

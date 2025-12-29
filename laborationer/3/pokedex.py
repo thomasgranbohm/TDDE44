@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """Pokédex.
 
 Programmet tar in två konsolargument. Den första är pokemonnamnet, och
@@ -68,8 +70,6 @@ def generate_ability_data(ability_urls, lang):
         if ability_data is not None:
             ability_name, flavor_text = None, None
 
-            """Jag håller inte med om rättningen angående next(),
-            men här är iaf en annan lösning."""
             for x in ability_data["names"]:
                 if x["language"]["name"] == lang:
                     ability_name = x["name"]

@@ -1,4 +1,5 @@
 def print_doors():
+    """Printar dörrarna."""
     print()
     print(r"   _________________________________________________________ ")
     print(r" /|     -_-                                             _-  |\ ")
@@ -23,6 +24,7 @@ def print_doors():
 
 
 def print_dragon():
+    """Printar draken."""
     print()
     print(r"            |                     | ")
     print(r"         \     /               \     / ")
@@ -44,6 +46,7 @@ def print_dragon():
 
 
 def print_treasure():
+    """Printar skattkistan."""
     print()
     print("                      _.--. ")
     print("                  _.-'_:-'|| ")
@@ -68,6 +71,7 @@ def print_treasure():
 
 
 def print_guard():
+    """Printar vakten."""
     print()
     print(r"                        ___I___ ")
     print(r"                       /=  |  #\ ")
@@ -95,6 +99,7 @@ def print_guard():
 
 
 def print_game_over():
+    """Printar gameover bilden."""
     print()
     print(r"   _____          __  __ ______    ______      ________ _____ ")
     print(r"  / ____|   /\   |  \/  |  ____|  / __ \ \    / /  ____|  __ \ ")
@@ -106,6 +111,7 @@ def print_game_over():
 
 
 def print_pic(state):
+    """Printar bilden tillhörande spelets stadie."""
     match state:
         case "Start":
             return print_doors()

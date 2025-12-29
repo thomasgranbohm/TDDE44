@@ -1,3 +1,4 @@
+"""gamedata for adventure game."""
 
 DESCRIPTIONS = {
     "Start": """You enter a room, and you see a blue door to your left and a \
@@ -14,8 +15,7 @@ Do you take the treasure or leave it?""",
 sword in the empty treasure chest.
 Ooops! The noise has woken up the guard.
 What do you do now?""",
-    "Leave":
-    """Leaving all the shinies behind hurts, but it feels safer for now.
+    "Leave": """Leaving all the shinies behind hurts, but it feels safer for now.
 Hopefully, it will still be here, right after you gets past this guard.
 What do you do next?""",
     "Guard": """The guard seems to be deep in sleep, but he has a mean \
@@ -35,7 +35,8 @@ Do you flee for your life or attack it with your bare hands?""",
     "Direction": """Do you want to go left or right?""",
     "Right": """The guard approaches you and swings his axe, and your world \
 goes dark...""",
-    "Joke": """You tell the guard a hilarious joke, and he lets you pass for being so witty!"""
+    "Joke": """You tell the guard a hilarious joke, \
+and he lets you pass for being so witty!""",
 }
 
 OPTIONS = {
@@ -49,7 +50,7 @@ OPTIONS = {
     "Talk": "Talk to the guard",
     "Flee": "Flee",
     "Attack": "Attack",
-    "Joke": "Tell a joke"
+    "Joke": "Tell a joke",
 }
 
 ADVENTURE_TREE = {
@@ -67,5 +68,5 @@ ADVENTURE_TREE = {
     "Red": ["Flee", "Attack"],
     "Flee": ["End"],
     "Attack": ["End"],
-    "Joke": ["End"]
+    "Joke": ["End"],
 }

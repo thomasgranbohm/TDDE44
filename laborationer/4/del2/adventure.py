@@ -27,13 +27,15 @@
 import gamedata
 import pictures
 
-"""
-get_next_state hanterar spelets nuvarande stadie
-om stadiet har en beskrivning så skrivs den ut,
-varje stadie har minst en valmöjlighet, men om den endast har en så väljs den automatiskt
-annars frågas användaren efter ett svar och det alternativet returneras som det nästa stadiet
-"""
+
 def get_next_state(state):
+    """get_next_state hanterar spelets nuvarande stadie.
+
+    om stadiet har en beskrivning så skrivs den ut,
+    varje stadie har minst en valmöjlighet, men om den endast
+    har en så väljs den automatiskt annars frågas användaren
+    efter ett svar och det alternativet returneras som det nästa stadiet
+    """
     desc = gamedata.DESCRIPTIONS.get(state)
     if desc:
         print(desc)
@@ -41,19 +43,23 @@ def get_next_state(state):
     options = gamedata.ADVENTURE_TREE[state]
     if len(options) == 1:
         return options[0]
-    
+
     for i, state in enumerate(options):
         print("{} {}".format(i + 1, state))
 
     inp = None
-    while inp == None or inp >= len(options):
+    while inp is None or inp >= len(options):
         inp = int(input(">> ")) - 1
-    
+
     return options[inp]
 
-def main():
+
+if __name__ == "__main__":
     name = input("What's your name?\n>> ")
-    print("Welcome {} to the adventure of your life. Try to survive and find the treasure!".format(name.upper()))
+    print(
+        "Welcome {} to the adventure of your life. \
+Try to survive and find the treasure!".format(name.upper())
+    )
 
     current_state = "Start"
 
@@ -62,5 +68,3 @@ def main():
         current_state = get_next_state(current_state)
 
     pictures.print_pic(current_state)
-
-main()
